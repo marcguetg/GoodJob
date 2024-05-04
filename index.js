@@ -6,12 +6,12 @@ if(typeof console === undefined) {
 
 var app = angular.module('App', []);
 app.controller('world', function ($scope) {
-	$scope.url = localStorage.getItem('url');
+	$scope.url = localStorage.getItem('url_goodjob');
 	window.SCOPE = $scope; // Debug
 
 	$scope.store_url = function(url) {
 		console.log(url)
-		localStorage.setItem('url', url);
+		localStorage.setItem('url_goodjob', url);
 		location.reload();
 	}
 
