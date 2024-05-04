@@ -44,6 +44,7 @@ app.controller('world', function ($scope) {
 
 	// tank creating
 	let tank = gauge.tank(0);
+	tank.name("Our's to spend");
 	tank.color("#70fd2d");
 	tank.width("20%");
 
